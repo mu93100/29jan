@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/ex_29jan_responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!------------------header------------------->
+    <header class="flex justify-between align-center">
+        <div class="burger">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            <h4>Menu</h4>
+        </div>
+
+        <img class="b-blue" src="/medias/republique_francaise.png" alt="">
+
+        <img class="b-blue" src="/medias/france_travail.png" alt="">
+
+        <nav class=" b-blue">
+            <ul class="flex justify-between align-center text-center">
+                <li class="b-blue p-1 ">INFORMATION</li>
+                <li class="b-blue p-1">LES PORTAILS PERSONALISES</li>
+                <li class="b-blue p-1">SERVICES CANDIDAT</li>
+                <li class="b-blue p-1">ACCUEIL</li>
+            </ul>
+        </nav>
+
+        <div class="m-auto b-blue p-02">
+            <button class="b-blue">
+                <i class="fa-solid fa-phone"></i>
+            </button>
+            <label for="">Connexion</label>
+        </div>
+
+        <div class="m-auto b-blue p-02">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Rechercher">
+
+        </div>
+    </header>
+<!------------------fin header------------------->
+
+    <main>
+<!------------------candidat------------------->
+        <section class="container_candidat text-center p-2">
+            <h1 class="white">1 073 968 offres d'emploi disponibles</h1>
+            <!------------------recherche-w------------------->
+            <div class="recherche-w flex align-center justify-center p-2">
+                <form class="flex">
+                    <!------input 100% de la div=> width 100%- div position relative ic position absolute left  top1/2= au mil---------->
+                    
+                        <input class="p-1" type="text" id="text" name="text" required placeholder="Métier, compétence, mot-clé, n° d'offre">
+                        <!-- <button type="submit"></button> -->
+                    
+
+                    <input type="text" id="text" name="text" required placeholder="Lieu de travail">
+                </form>
+
+                <button class="p-1">
+                    <i class="fa-solid fa-arrow-up-from-bracket white p-1.5"></i>
+                </button>
+            </div>
+
+            <p>Rechercher les offres par régions et par secteur d'activité</p>
+
+            <div class="mon_espace_candidat flex justify-around">
+                <div class="flex column align-center">
+                    <button class="button_red" type="submit">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <label for="">Gérer mes dossiers</label>
+                </div>
+
+                <div class="flex column align-center">
+                    <button class="button_red" type="submit">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <label for="">Mes services en ligne</label>
+                </div>
+
+                <div class="flex column align-center">
+                    <button class="button_red" type="submit">
+                        <i class="fa-regular fa-heart white"></i>
+                    </button>
+                    <label for="">Mon parcours</label>
+                </div>
+
+                <div class="flex column align-center b-">
+                    <button class="button_red" type="submit">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <label for="">Rechercher</label>
+                </div>
+
+                <div class="flex column align-center">
+                    <button class="button_red" type="submit">
+                        ...
+                    </button>
+                    <label for="">Plus de services</label>
+                </div>
+            </div>
+        </section>
+<!------------------entreprise------------------->
+        <section class="container_entreprise text-center">
+            <h2 class=" m-1">Entreprise</h2>
+            <hr>
+            <p class=" m-1">Vous êtes une entreprise ou un particulier employeur ? France Travail vous propose un espace dédié !</p>
+            <div class=" m-1">
+                <button type="submit">ENTREPRISE</button>
+                <button type="submit">PARTICULIER EMPLOYEUR</button>
+            </div>
+        </section>
+<!------------------actu------------------->
+        <section class="container_actualite b-blue">
+            <h2 class="p-2 bg-lgray text-center">Actualités de l'emploi</h2>
+
+            <div class="vigilance-actu_regions flex justify-between m-1">
+                <img src="/medias/france_travail.png" alt="">
+                <div>
+                    <h3>Tous vigilants !</h3>
+                    <p>Consultez les arnaque et tentatives de fraude en cours</p>
+                    <button type="submit">EN SAVOIR PLUS</button>
+                </div>
+
+                <img src="/medias/republique_francaise.png" alt="">
+                <div>
+                    <h3>En direct des régions !</h3>
+                    <p>Des actualités, des évenements, des opportunités d'emploi et de formatio,n près de chez vous</p>
+                    <button type="submit">L'ACTU EN REGION</button>
+                </div>
+            </div>
+        </section>
+<!------------------cards------------------->
+        <section class="container_card flex p-2 w-100 bg-lgray">
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            <div class="card m-1"></div>
+            
+
+            <button type="submit"></button>
+        </section>
+    </main>
+    <footer class="flex">
+        <div>
+            <h6>AUTRES SITES FRANCE TRAVAIL</h6>
+            <hr class="hr1">
+            <ul>
+                <li>Institutionnel</li>
+                <li>Mes evènements emploi</li>
+                <li>Mes evènements emplo</li>
+                <li>France Travail TV</li>
+                <li>France Travail spectacle</li>
+                <li>Mobilité internationale</li>
+                <li>Data Emploi</li>
+            </ul>
+        </div>
+
+        <div>
+            <h6>AUTRES SITES FRANCE TRAVAIL</h6>
+            <hr class="hr1">
+            <ul>
+                <li>Institutionnel</li>
+                <li>Mes evènements emploi</li>
+                <li>Mes evènements emplo</li>
+                <li>France Travail TV</li>
+                <li>France Travail spectacle</li>
+                <li>Mobilité internationale</li>
+                <li>Data Emploi</li>
+            </ul>
+        </div>
+
+        <div>
+            <h6>AUTRES SITES FRANCE TRAVAIL</h6>
+            <hr class="hr1">
+            <ul>
+                <li>Institutionnel</li>
+                <li>Mes evènements emploi</li>
+                <li>Mes evènements emplo</li>
+                <li>France Travail TV</li>
+                <li>France Travail spectacle</li>
+                <li>Mobilité internationale</li>
+                <li>Data Emploi</li>
+            </ul>
+        </div>
+
+        <div>
+            <h6>AUTRES SITES FRANCE TRAVAIL</h6>
+            <hr class="hr1">
+            <ul>
+                <li>Institutionnel</li>
+                <li>Mes evènements emploi</li>
+                <li>Mes evènements emplo</li>
+                <li>France Travail TV</li>
+                <li>France Travail spectacle</li>
+                <li>Mobilité internationale</li>
+                <li>Data Emploi</li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
