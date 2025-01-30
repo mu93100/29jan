@@ -13,10 +13,12 @@
     background-size: cover;
     height: 495px;
 }
-.burger{
+/* .burger{
     display: none;
+} */
+.burger_icone{   ICONE CONSIDEREE COMME FONT => pour traiter taille/ coul ...utilis
+    font-size: xx-large;
 }
-
 .recherche-w{
     border: 1px dotted blue;
 }
@@ -43,11 +45,13 @@ p{
     font-size: small;
     color: rgb(68, 67, 67);
 }
+h{
+    font-size: xx-large;
+}
 li{
     color: rgb(68, 67, 67);
     list-style-type: none;
 }
 nav{
     flex: 1;
-  
 }

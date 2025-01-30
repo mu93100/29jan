@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
+}
+    
+/* :root{
+    --red
+} */
+
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;     /* ATTENTION : mettre une width 100% pour fixer la nav en haut de la p. */
+}
+.carre{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid tomato;
+}
+.dd{
+    height: 1.5rem;
+    background-color: black;
+}
+.div_gif{
+    flex: 1;
+    background-color: lightblue;
+}
+/* ------------FLOAT ESSAIS------------ */
+.carreV{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid white;
+    float: none;
+}
+.carreW{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid lightcyan;
+    float: inline-end;
+}
+
+.carreX{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid lightgoldenrodyellow;
+    float: inline-start;
+}
+.carreY{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid lightgreen;
+    float:left;
+}
+.carreZ{
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid red;
+    float:right;
+}
+/* ------------FLOAT ESSAIS------------ */
+
+.bandeau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-color: tomato;
+    border: 3px solid yellow;
+    margin-top: 6.7rem;
+    position: relative;
+
+
+    /* background-image: url(/medias/home-cover-pMkBh3b3\ \(1\).jpg); */
+    
+}
+.bandeau_center{
+
+}
+
+.main{
+    height: 60rem;
+    background-color: black;
+    
+}
+.main{
+
+}
+.gray{
+    height: 10rem;
+    width: 100%;
+    background-color:rgba(70, 70, 59, 0.281);     /* transparence quand on va dans la coul */
+    position: absolute;
+    bottom: 0;
